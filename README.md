@@ -1,2 +1,2 @@
 # odin-site
-Just a small web page porject
+Just a small web page project
