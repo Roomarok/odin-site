@@ -1,31 +1,68 @@
 body {
     margin: 0;
 }
+ /* Small Itens */
+
+.gray-block {
+    background-color: gray;
+    height: 150px;
+    width: 300px;
+    flex: 2 1 1;
+}
+.text {
+    color: white;
+    background-color: gray;
+}
+
 button {
     background-color: #3882f6;
 }
 
 .logo {
     color: #f9faf8;
-        font-size: 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Texts */
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
 }
 
 .cima,.baixo {
     background-color: #1f2934;
+}
+.box {
+    padding: 15px;
+    margin-left: 191px;
+    margin-right: 191px;
+
 }
 
 .header-links, .second-text {
     color: #e5e7eb;
     font-size: 18px;
 }
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 2 0;
+}
 
 .header {
     color: #f9faf8;
     display: flex;
     margin: 0;
-    padding: 20px;
     justify-content: space-between;
+
 }
+.hero {
+    display:flex;
+    flex: 1 1 auto;
+}
+
 ul {
     list-style-type: none;
 }
