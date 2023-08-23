@@ -1,15 +1,15 @@
 body {
     margin: 0;
-    font-family: "roboto", arial;
+    font-family: 'Roboto', sans-serif;
 }
  /* Small Itens */
 
 .gray-block {
     background-color: gray;
-    height: 200px;
-    width: 600px;
+    height: 250px;
+    width: 770px;
     margin-left: 50px;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,14 @@ body {
     line-height: 37px; 
 }
 
+.blue-perimeter {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+
 .logo {
     color: #f9faf8;
     font-size: 24px;
@@ -39,14 +47,28 @@ body {
 .main-text {
     color: #f9faf8;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
+}
+.header-links, .second-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.random {
+    text-align: center;
+    color: #1f2934;
+    font-size: 36px;
+    font-weight: 900;
 }
 
+/* BIG boxes */
 .cima {
     background-color: #1f2934;
 }
 .baixo {
     background-color: #1f2934;
+}
+.meio-baixo {
+    background-color: #e5e7eb;
 }
 .box {
     padding: 15px;
@@ -54,12 +76,23 @@ body {
     margin-right: 191px;
 
 }
-
-.header-links, .second-text {
-    color: #e5e7eb;
-    font-size: 18px;
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+/* Small Boxes */
+.pics-item {
+    display: flex;
+    flex-direction: column;
+}
+.subtext {
+    color: gray;
+    text-align: center;
+    width: 150px;
 }
 
+/* Cima parts */
 .header {
     color: #f9faf8;
     display: flex;
@@ -90,5 +123,6 @@ ul.hero-text {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    gap: 10px;
 }
 
